@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ruby Rocks! - Школа ruby-разработки Сергея Удалова.
+title: Ruby Rocks! — Ваши идеи, наша экспертиза
 email: udalov.x@mail.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  Прокачай свой Ruby-скилл с Ruby Rocks! Онлайн-школа для разработчиков, которые хотят писать качественный, тестируемый и поддерживаемый код. Практика, актуальные методики и разбор реальных кейсов.
+  Создаем веб-сервисы, приложения и порталы на Ruby on Rails
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rubyrocks.ru" # the base hostname & protocol for your site, e.g. http://example.com
 
