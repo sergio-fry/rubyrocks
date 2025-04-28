@@ -1,0 +1,56 @@
+body {
+  color: black;
+  background-color: white;
+  font-family: "Helvetica Neue","Segoe UI",Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif;
+
+  font-size: 1.1rem;
+  line-height: 1.43rem;
+}
+
+.wrapper {
+  width: fit-content;
+  max-width: 640px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+h1 { line-height: 2rem; }
+
+hr {
+  text-align: center;
+  border: 0;
+  height: 1px;
+  background: black linear-gradient(to right, transparent 50%, #fff 50%);
+  background-size: 13px 2px, 100% 2px;
+
+  &:before { content: '/////' }
+  &:after { content: attr(data-content) '/////' }
+}
+
+table, th, td {
+  border: thin solid black;
+  border-collapse: collapse;
+}
+
+/*- CUSTOM -*/
+
+.post-meta a {
+  color: black;
+}
+.post-meta .title {
+  font-weight: bold;
+}
+a.no-text-decoration {
+  text-decoration: none;
+}
+.secondary {
+  color: grey;
+}
+a.wiki-link {
+  color: green;
+}
+
+a.wiki-link.link_missing {
+  color: red;
+  text-decoration-style: dotted;
+}
